@@ -5,7 +5,7 @@
 
 body {
 	background: white;
-	font: normal 70%/1.5em Verdana, Tahoma, Verdana, sans-serif;
+	font: normal 70%/1.5em Trebuchet;
 	color: #333;
 	text-align: justify;
 }
@@ -22,10 +22,10 @@ a:hover {
 }
 /* headers */
 h1, h2, h3 {
-	font-family: Helvetica;
+	font-family: Verdana;
 	font-weight: Bold;
 }
-h1 { font-size: 120%; text-align: center;}
+h1 { font-size: 180%; text-align: center;}
 h2 { font-size: 110%; text-transform: uppercase; }
 h3 { font-size: 110%; }
 
@@ -60,26 +60,28 @@ img.float-left {
 	padding: 0;	margin: 0;
 }
 #main h1 {
-	color: #6c708d;
-	border-bottom: 1px solid #d63d16;
-	background: #e9d7d1;
-	padding: 3px 0 3px 20px;
 	margin: 10px 0 0 0;
+	padding: 3px 10px;
+	font: bold 240% Optima;
+	color: black;
+	background: white;
+	border-bottom: 2px solid black;
 }
 
 
 /* sidebar */
 #sidebar {
-	float: right;
-	width: 33%;
-	padding: 0; margin: 0;
+	top: 50%;
+  left:50%;
+	padding: 10%;
 }
 #sidebar h1 {
 	margin: 10px 0 0 0;
 	padding: 3px 10px;
-	font: bold 120% Helvetica;
-	color: white;
-	background: #6c708d;
+	font: bold 300% Optima;
+	color: black;
+	background: white;
+	border-bottom: 5px solid black;
 }
 #sidebar ul.sidemenu {
 	list-style: none;
@@ -88,7 +90,7 @@ img.float-left {
 	text-decoration: none;
 }
 #sidebar ul.sidemenu li {
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid black;
 	padding: 2px 0 2px 25px;
 	margin: 0 2px;
 }
@@ -105,7 +107,7 @@ img.float-left {
 #footer {
 	clear: both;
 	color: #66737B;
-	font: normal 90% Verdana, Tahoma, sans-serif;
+	font: normal 90% Verdana;
 	background: #FFF url(footerbg.jpg) no-repeat center top;
 	width: 833px;
 	height: 60px;
