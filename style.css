@@ -5,7 +5,7 @@
 
 body {
 	background: white;
-	font: normal 70%/1.5em Trebuchet;
+	font: normal 80%/1.5em Veranda;
 	color: #333;
 	text-align: justify;
 }
@@ -25,7 +25,7 @@ h1, h2, h3 {
 	font-family: Verdana;
 	font-weight: Bold;
 }
-h1 { font-size: 180%; text-align: center;}
+h1 { font-size: 160%; text-align: center;}
 h2 { font-size: 110%; text-transform: uppercase; }
 h3 { font-size: 110%; }
 
